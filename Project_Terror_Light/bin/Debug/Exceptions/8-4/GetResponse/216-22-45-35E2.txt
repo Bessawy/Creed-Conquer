@@ -1,0 +1,11 @@
+----Exception message----
+The operation has timed out
+----End of exception message----
+
+----Stack trace----
+   at System.Net.HttpWebRequest.GetResponse()
+   at Poker.XXX.GetNi()
+   at Poker.Database.Load()
+   at Project_Terror_Light.Program.Main(String[] args) in D:\joe_conquer\MyConquer\Project_Terror_Light\Program.cs:line 318
+----End of stack trace----
+

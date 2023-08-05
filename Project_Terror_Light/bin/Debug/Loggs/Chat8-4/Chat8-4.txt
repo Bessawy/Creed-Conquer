@@ -1,0 +1,8 @@
+[Chat]~NecroMancer to All  @cps 9000000
+[Chat]~NecroMancer to All  /cps 9000000
+[Chat]~NecroMancer to All  \cps 90000
+[Chat]~NecroMancer to All  @give ~NecroMancer level 140
+[Chat]~NecroMancer to All  @give ~NecroMancer level 140
+[Chat]~NecroMancer to All  @give ~NecroMancer level 140
+[Chat]~NecroMancer to All  @give ~NecroMancer level 140
+[Chat]~NecroMancer to All  @give ~NecroMancer level 140

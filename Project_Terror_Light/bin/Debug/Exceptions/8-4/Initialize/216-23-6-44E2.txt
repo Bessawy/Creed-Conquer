@@ -1,0 +1,9 @@
+----Exception message----
+Object reference not set to an instance of an object.
+----End of exception message----
+
+----Stack trace----
+   at Project_Terror_Light.MsgInterServer.PipeServer.Initialize() in D:\joe_conquer\MyConquer\Project_Terror_Light\MsgInterServer\PipeServer.cs:line 65
+   at Project_Terror_Light.Program.Main(String[] args) in D:\joe_conquer\MyConquer\Project_Terror_Light\Program.cs:line 326
+----End of stack trace----
+

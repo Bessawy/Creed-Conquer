@@ -1,0 +1,5 @@
+E:\MyConquer\Project_Terror_AccServer\bin\Debug\Project_Terror_AccServer.exe.config
+E:\MyConquer\Project_Terror_AccServer\bin\Debug\Project_Terror_AccServer.exe
+E:\MyConquer\Project_Terror_AccServer\bin\Debug\Project_Terror_AccServer.pdb
+E:\MyConquer\Project_Terror_AccServer\obj\x86\Debug\Project_Terror_AccServer.exe
+E:\MyConquer\Project_Terror_AccServer\obj\x86\Debug\Project_Terror_AccServer.pdb

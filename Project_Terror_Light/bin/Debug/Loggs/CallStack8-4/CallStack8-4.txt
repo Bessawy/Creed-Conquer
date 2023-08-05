@@ -1,0 +1,8 @@
+[CallStack]~NecroMancer get 900000000 he have 0
+[CallStack]~NecroMancer lost 1990 he have 900000000
+[CallStack]~NecroMancer get 1991 he have 899998009
+[CallStack]~NecroMancer get 5000 he have 900000000
+[CallStack]~NecroMancer lost 300 he have 900005000
+[CallStack]~NecroMancer lost 180000 he have 900004700
+[CallStack]~NecroMancer get 78 he have 899824748
+[CallStack]~NecroMancer get 83 he have 899824870

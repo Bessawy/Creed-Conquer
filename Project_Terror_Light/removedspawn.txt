@@ -1,0 +1,65 @@
+﻿
+/*else if (DateNow.Hour % 5 == 0 && DateNow.Minute == 34 && DateNow.Second <= 1)//re-spawn nemesys
+                {
+                    var map = Database.Server.ServerMaps[3846];
+                    if (!map.ContainMobID(20300))
+                    {
+
+                        using (var rec = new ServerSockets.RecycledPacket())
+                        {
+                            var stream = rec.GetStream();
+                            Database.Server.AddMapMonster(stream, map, 20300, 118, 187, 18, 18, 1);
+#if Arabic
+  Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage("The NemesisTyrant have spawned in the BloodShedSea on (118, 187) ! Hurry to kill them. Drop [SavageBone, DragonBalls].", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
+
+#else
+                            Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage("The NemesisTyrant have spawned in the BloodShedSea on (118, 187) ! Hurry to kill them. Drop [SavageBone, DragonBalls].", Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
+
+#endif
+                          
+                            foreach (var user in Database.Server.GamePoll.Values)
+                                user.Player.MessageBox(
+
+#if Arabic
+                                    "The NemesisTyrant have spawned in the BloodShedSea on (118, 187) ! Hurry to kill them. Drop [SavageBone, DragonBalls]."
+#else
+"The NemesisTyrant have spawned in the BloodShedSea on (118, 187) ! Hurry to kill them. Drop [SavageBone, DragonBalls]."
+#endif
+, new Action<Client.GameClient>(p =>
+                                {
+                                    p.Teleport(118, 187, 3846);
+                                }
+                                                      ), null, 60);
+
+                        }
+                    }
+                }*/
+
+
+
+/*if (DateNow.Hour % 3 == 0 && DateNow.Minute == 31 && DateNow.Second < 2)
+                {
+                    var map = Database.Server.ServerMaps[1927];
+                     if (!map.ContainMobID(20070))
+                     {
+
+                         using (var rec = new ServerSockets.RecycledPacket())
+                         {
+                             var stream = rec.GetStream();
+                             Database.Server.AddMapMonster(stream, map, 20070, 540, 430, 18, 18, 1);
+#if Arabic
+                              string Messaj = "The Snow Banshee appeared in Frozen Grotto 2(540,430)! Defeat it!";
+#else
+                             string Messaj = "The Snow Banshee appeared in Frozen Grotto 2(540,430)! Defeat it!";
+#endif
+                            //"The SnowBanshee have spawned in the FrozenGroto2 on (378,369) ! Hurry to kill them.";
+                             Program.SendGlobalPackets.Enqueue(new Game.MsgServer.MsgMessage(Messaj, Game.MsgServer.MsgMessage.MsgColor.red, Game.MsgServer.MsgMessage.ChatMode.Center).GetArray(stream));
+                             foreach (var user in Database.Server.GamePoll.Values)
+                                 user.Player.MessageBox(Messaj, new Action<Client.GameClient>(p =>
+                                 {
+                                     p.Teleport(540, 430, 1927);
+                                 }
+                                                       ), null, 60);
+                         }
+                     }
+                }*/
